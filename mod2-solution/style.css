@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+
+
+}
+
+body {
+  align-content: center;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 50px;
+  font: optima;
+  font-style: bold;
+}
+
+#container {
+	width: 100%;
+  position: relative;
+}
+
+.section {
+  clear: left;
+}
+
+div#box1, #box2, #box3 {
+  height: auto;
+  border-radius: 2px;
+  padding: 30px;
+  font: calibri 15px;
+  position: relative;
+}
+
+
+/* paragraphs */
+#C,#B,#S {
+  position: absolute;
+  top: 0;
+  right: 0;
+	border: 1px solid black;
+	font-family: Helvetica;
+	width: 23%;
+  height: auto;
+	text-align: center;
+  margin: 0;
+  font: arial bold 16px;
+}
+
+#C {
+	background-color: pink;
+	color: #000000;
+}
+
+#B {
+	background-color: #EC846D;
+	color: #FFFFFF;
+}
+
+#S {
+	background-color: yellow;
+	color: #000000;
+  width: 12%;
+}
+
+/* Desktop View 991px and above*/
+
+@media (min-width: 991px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, 
+  .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, 
+  .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 1px solid black;
+    background-color: #C5C3BC;
+    margin: 15px;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 30%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 45%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 63%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/* Tablet View 768px and 990px */
+
+@media (min-width: 768px) and (max-width: 990px) {
+  #box1, #box2, #box3 {
+    float: left;
+    border: 1px solid black;
+    background-color: #C5C3BC;
+    margin: 15px;
+  }
+  #box1, #box2 {
+    width: 45%;
+  }
+  #box3 {
+    width: 94%;
+  }
+}
+
+/* Mobile View equal or less than 767px */
+
+@media (min-width: 10px) and (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+  .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, 
+  .col-sm-11, .col-sm-12 {
+    float: left;
+    border: 1px solid black;
+    background-color: #C5C3BC;
+    margin: 15px;
+    width: auto;
+    padding: 3px;
+  }
+}
