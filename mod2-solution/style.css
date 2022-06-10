@@ -49,17 +49,17 @@ div#box1, #box2, #box3 {
 }
 
 #C {
-	background-color: brown;
+	background-color: #DEB341;
 	color: #000000;
 }
 
 #B {
-	background-color: red;
+	background-color: #CA2658;
 	color: #FFFFFF;
 }
 
 #S {
-	background-color: green;
+	background-color: #26CA78;
 	color: #000000;
   width: 12%;
 }
